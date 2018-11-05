@@ -1,0 +1,6 @@
+1. Make a heap (min or max).  Your out put should print the array before heapify and then after heapify. 
+2. From the heap you make in step 1, use heapsort to sort the array.
+In C++
+Please run the program intuitively in Visual Studio 2015. This program includesfiles: Heap sort.cpp
+
+First step, build max-heap by heapify function. Then do the heap sort.
