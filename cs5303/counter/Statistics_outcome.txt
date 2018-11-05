@@ -1,0 +1,6 @@
+Xi Cui 
+----------------
+Total   : 698904.00
+Average : 6.99
+Variance: 5.81
+StDev   : 2.41
