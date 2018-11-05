@@ -1,0 +1,8 @@
+Implement Prim's algorithm to find MST, given a graph.
+In C++
+Please run the program intuitively in Visual Studio 2015. This program includes files: Prim MST.cpp
+1. You may hardcode the graph.  It must have at least 10 nodes and 15 edges. The edges have weights.
+This program can find the minimal spanning tree of an undirected weighted graph. The MST function use
+three arrays to store the messages of vertices, including whether they are in the spanning tree(visited),
+their previous vetex and the minimal weight between adjacent vertices. By update the three array, the 
+program find the minimal spanning tree of the graph.
