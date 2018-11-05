@@ -1,0 +1,15 @@
+1. You will use incident matrix to represent a graph.  Use at least 10 vertices and 15 edges in the graph. You may hard code the graph.
+In C++
+Please run the program in Visual Studio 2015. This program includes files: Graph Traversal.cpp
+By giving the starting vertex and incident matrix to DFS-function or BFS-function, the program can traversal all vertice in
+the given graph no matter it is connected and not connected or directed and undirected.
+
+a. Write a program to do DFS traversal on the graph.  Use two types of graphs - connected and not connected.  Then run the same algorithm on a directed graph.
+First, hard the incident matrix in two-dimensional array. Then for Deep First Traversal, we need to 
+give a starting vertex and the incident matrix to the DFS-function. Depending on the incident matrix of the graph,
+find the neighbor vertices of the starting vertex, marck the starting vertex as visited. Then chose one of its neighbor as the new 
+"starting vertex" and call the DFSv function recursively, until all vertices in the graph has been visited.
+
+b. Write a program to do BFS traversal on the graph. Again use undirected connected and not connected graph and then also run on a directed graph.
+For the Breadth First Traversal, give starting vertex and incident matrix to BFS-function. when the vertex has been pushed into queue, mark the vertex as
+visited.
